@@ -7,9 +7,9 @@ graph LR
   Client[Client] -->|HTTP| Consumer["Consumer App<br>(port 8000)"]
   Consumer -->|async HTTP| API1["API One<br>(port 8001)"]
   Consumer -->|async HTTP| API2["API Two<br>(port 8002)"]
-  style API1 fill:#f9f,stroke:#333,stroke-width:1px
-  style API2 fill:#f9f,stroke:#333,stroke-width:1px
-  style Consumer fill:#bbf,stroke:#333,stroke-width:1px
+  style API1 fill:#f9f,stroke:#333,stroke-width:1px,color:#000
+  style API2 fill:#f9f,stroke:#333,stroke-width:1px,color:#000
+  style Consumer fill:#bbf,stroke:#333,stroke-width:1px,color:#000
 ```
 
 Services:
